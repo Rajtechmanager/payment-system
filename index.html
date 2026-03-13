@@ -21,14 +21,15 @@
       } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore.js";
 
       // 🔴 REPLACE THIS BLOCK with your Firebase config from Firebase Console
-      const firebaseConfig = {
-        apiKey: "AIzaSyAt8EnMuLNYiORy8P2ybb4ieDX_Y-srqzg",
-        authDomain: "upi-payments-f7e42.firebaseapp.com",
-        projectId: "upi-payments-f7e42",
-        storageBucket: "upi-payments-f7e42.firebasestorage.app",
-        messagingSenderId: "G-WDKFC27Y21",
-        appId: "1:369530473141:web:0c37814aff7637a2730cfc",
-      };
+     const firebaseConfig = {
+  apiKey: "AIzaSyAt8EnMuLNYiORy8P2ybb4ieDX_Y-srqzg",
+  authDomain: "upi-payments-f7e42.firebaseapp.com",
+  projectId: "upi-payments-f7e42",
+  storageBucket: "upi-payments-f7e42.firebasestorage.app",
+  messagingSenderId: "369530473141",
+  appId: "1:369530473141:web:0c37814aff7637a2730cfc",
+  measurementId: "G-WDKFC27Y21"
+};
 
       const app = initializeApp(firebaseConfig);
       const db = getFirestore(app);
